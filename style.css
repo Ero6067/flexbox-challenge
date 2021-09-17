@@ -1,3 +1,54 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
 
+.section-title {
+  color: #f3eed9;
+}
+
+.section-title--dark {
+  color: #824936;
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+}
+
+.intro {
+  background-color: #f3eed9;
+}
+
+.intro__text {
+  margin: 0 auto;
+}
+
+.intro__title {
+  color: #824936;
+}
+
+.section-three {
+  background-color: #222c2a;
+  color: #fff;
+}
+
+.section-four {
+  background-color: #824936;
+  color: #fff;
+}
+
+.container {
+  width: 80%;
+  max-width: 1128px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
 
 /*# sourceMappingURL=style.css.map */
